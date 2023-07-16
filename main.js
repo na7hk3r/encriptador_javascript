@@ -39,6 +39,7 @@ function encriptar() {
     else {
         document.getElementById("texto1-contder").style.display = "none";
         document.getElementById("texto2-contder").style.display = "none";
+        document.getElementById("img-logo").style.display = "none";
         document.getElementById("output-texto").style.display = "inline-block";
         document.getElementById("output-texto").innerHTML = txt_cifrado;
         
@@ -68,6 +69,7 @@ function desencriptar() {
     else {
     document.getElementById("texto1-contder").style.display = "none";
     document.getElementById("texto2-contder").style.display = "none";
+    document.getElementById("img-logo").style.display = "none";
     document.getElementById("output-texto").style.display = "inline-block";
     document.getElementById("output-texto").innerHTML = txt_cifrado;
 
