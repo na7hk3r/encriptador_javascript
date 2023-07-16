@@ -1,0 +1,136 @@
+/*      Movil       */
+@media screen and (max-width: 480px) {
+  .main {
+    width: 100vw;
+  }
+
+  .b-encriptar,
+  .b-desencriptar,
+  .b-copiar {
+    width: 100%;
+  }
+
+  .contenedor-der {
+    padding: 30px;
+    height: auto;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+
+/*      Tablet      */
+@media screen and (min-width: 760px) {
+  main {
+    justify-content: flex-start;
+    padding: 4rem 5rem;
+  }
+
+  .contenedor-izq {
+    height: 40rem;
+    justify-content: space-around;
+  }
+
+  .input-texto {
+    font-size: 1.8rem;
+    height: 75%;
+    margin-top: 3rem;
+    width: 85%;
+  }
+
+  .container-btns {
+    flex-direction: row;
+    margin-top: 3rem;
+  }
+
+  .b-encriptar {
+    margin-right: 2rem;
+  }
+
+  .b-desencriptar {
+    margin-right: 2rem;
+  }
+
+  .contenedor-der {
+    height: auto;
+    padding: 30px;
+  }
+
+  footer {
+    margin-bottom: 2rem;
+  }
+}
+
+/*      Desktop     */
+@media screen and (min-width: 1024px) {
+  main {
+    align-items: center;
+    flex-direction: row;
+    height: 93vh;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .contenedor-izq {
+    height: 80%;
+    margin-right: 5rem;
+    width: 70rem;
+  }
+
+  .contenedor-izq p {
+    margin-top: 3rem;
+  }
+
+  .input-texto {
+    font-size: 2rem;
+    height: 63%;
+    margin-top: 3.5rem;
+    width: 80%;
+  }
+
+  .container-btns {
+    margin-top: 33rem;
+    position: absolute;
+    width: 105rem;
+  }
+
+  .b-encriptar {
+    margin: 0 6rem;
+  }
+
+  .b-desencriptar {
+    margin-right: 13rem;
+  }
+
+  .b-copiar {
+    margin-right: 2rem;
+    opacity: 0.9;
+  }
+
+  .contenedor-der {
+    border: none;
+    height: 80%;
+    margin-top: 0;
+    padding: 0 2rem;
+    width: 30rem;
+  }
+
+  .contenedor-texto {
+    justify-content: flex-start;
+  }
+
+  .contenedor-texto p:nth-child(2) {
+    margin-top: 70%;
+  }
+
+  .output-texto {
+    height: 65%;
+    margin-top: 30%;
+    width: 90%;
+  }
+
+  footer {
+    margin: 1rem 0 0 0;
+  }
+}
