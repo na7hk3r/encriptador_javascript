@@ -1,6 +1,7 @@
 /*      Movil       */
 @media screen and (max-width: 480px) {
   .main {
+    height: 100vh;
     width: 100vw;
   }
 
